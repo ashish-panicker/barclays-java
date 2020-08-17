@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.unit.testing.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.524 s <<< FAILURE! - in com.unit.testing.AppTest
+testSaveMethod(com.unit.testing.AppTest)  Time elapsed: 0.027 s  <<< FAILURE!
+org.mockito.exceptions.verification.TooLittleActualInvocations: 
+
+network.save("data.file");
+Wanted 2 times:
+-> at com.unit.testing.AppTest.testSaveMethod(AppTest.java:42)
+But was 1 time:
+-> at com.unit.testing.mocks.RecordService.save(RecordService.java:15)
+
+	at com.unit.testing.AppTest.testSaveMethod(AppTest.java:42)
+

@@ -1,0 +1,21 @@
+GET http://localhost:5000/employees/
+
+###
+
+GET http://localhost:5000/employees/e02
+
+###
+
+POST http://localhost:5000/employees/
+Content-Type: application/json
+
+{
+    "employeeId": "e02",
+    "name": "Arun",
+    "role": "Devops Engineer"
+}
+
+###
+
+DELETE http://localhost:5000/employees/e02
+

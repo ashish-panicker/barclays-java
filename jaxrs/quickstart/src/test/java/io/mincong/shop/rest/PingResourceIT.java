@@ -7,6 +7,7 @@ import javax.ws.rs.core.Response.Status;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -15,7 +16,8 @@ import static org.junit.Assert.assertEquals;
  * @author Mincong Huang
  * @since 1.0
  */
-public class PingResourceIT {
+
+@Ignore public class PingResourceIT {
 
   private HttpServer server;
 
